@@ -1,0 +1,4 @@
+ADD_SUBDIRECTORY(class_template)
+ADD_SUBDIRECTORY(easyway)
+ADD_SUBDIRECTORY(specialization)
+ADD_SUBDIRECTORY(template)

@@ -1,0 +1,2 @@
+ADD_SUBDIRECTORY(max_element)
+ADD_SUBDIRECTORY(partial_sum)

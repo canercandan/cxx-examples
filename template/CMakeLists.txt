@@ -1,0 +1,5 @@
+ADD_SUBDIRECTORY(class)
+ADD_SUBDIRECTORY(function)
+ADD_SUBDIRECTORY(metaprogramming)
+ADD_SUBDIRECTORY(nontype)
+ADD_SUBDIRECTORY(specialization)

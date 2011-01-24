@@ -1,0 +1,1 @@
+ADD_EXECUTABLE(max_element main.cpp)

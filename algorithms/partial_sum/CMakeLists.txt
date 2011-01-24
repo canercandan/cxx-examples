@@ -1,0 +1,1 @@
+#ADD_EXECUTABLE(partial_sum main.cpp)
