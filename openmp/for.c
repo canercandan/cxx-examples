@@ -1,11 +1,22 @@
 #include <omp.h>
 #include <stdio.h>
 
-int main(void)
+void set_threads()
 {
 #ifdef _OPENMP
     omp_set_num_threads(100);
 #endif // !_OPENMP
+}
+
+void do_for()
+{
+#pragma omp parallel
+    {
+	if ( 0 == omp_get_thread_num() )
+	    {
+		printf("thread nums: %d\n", omp_get_num_threads());
+	    }
+    }
 
     int i = 0;
 
@@ -18,6 +29,12 @@ int main(void)
 
 	    printf("i(%d)\n", i);
 	}
+}
+
+int main(void)
+{
+    set_threads();
+    do_for();
 
     return (0);
 }
