@@ -23,7 +23,7 @@
 int main(void)
 {
 #ifdef _OPENMP
-    omp_set_num_threads(100);
+    //omp_set_num_threads(100);
 #endif // !_OPENMP
 
     const int array[] = {100, 200, 300, 400, 500, 999};
