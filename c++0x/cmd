@@ -1,0 +1,1 @@
+~/Downloads/gcc-4.6.0/install/bin/g++ -std=c++0x main.cpp && ./a.out
